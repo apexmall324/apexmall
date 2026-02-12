@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>APEX MALL | Online Digital Shop</title>
+
+  <!-- SEO -->
+  <meta name="description" content="APEX MALL is an online digital shop for data bundles, documentations, designs, and web-related products. Fast delivery via WhatsApp.">
+  <meta name="theme-color" content="#0A1AFF">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <a href="index.html" class="logo">APEX<span>MALL</span></a>
+
+  <input 
+    type="search"
+    id="searchInput"
+    placeholder="Search products..."
+    class="search-bar"
+    aria-label="Search products"
+  >
+  <!-- Mobile dropdown menu (categories, WhatsApp, quick links) -->
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <h4>Menu</h4>
+      <div id="mobileCategories" class="mobile-categories"></div>
+      <a class="mobile-link" href="https://wa.me/233597323795" Microsoft.QuickAction.WiFitarget="_blank" rel="noopener noreferrer">💬 WhatsApp to Purchase</a>
+      <a class="mobile-link" href="#products">Browse Products</a>
+      <a class="mobile-link" href="https://apexmall324.github.io/Apex-DataHub/">Data Bundles</a>
+    </div>
+  </div>
+  
+  <div class="nav-actions">
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="hamburger" aria-hidden="true"></span>
+    </button>
+
+    <a href="https://wa.me/233597323795" class="nav-btn nav-desktop">Order Now</a>
+  </div>
+
+
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <h1>Shop Digital Products Online</h1>
+  <p>Affordable • Fast • Trusted Digital Marketplace</p>
+
+  <a href="#products" class="hero-btn">Browse Products</a>
+</header>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="categories">
+  <button class="category active" data-category="all">All</button>
+  <button class="category" data-category="data">Data Bundles</button>
+  <button class="category" data-category="documents">Documents</button>
+  <button class="category" data-category="design">Designs</button>
+  <button class="category" data-category="web">Web</button>
+</section>
+
+<!-- ================= PRODUCT CONTROLS (filters & sort) ================= -->
+<section class="product-controls">
+  <div class="controls">
+    <div class="filters">
+      <label class="price-label">Price range
+        <div class="price-inputs">
+          <input type="number" id="priceMinInput" placeholder="Min" min="0" aria-label="Minimum price" />
+          <span class="dash">—</span>
+          <input type="number" id="priceMaxInput" placeholder="Max" min="0" aria-label="Maximum price" />
+        </div>
+      </label>
+      <label class="in-stock-label"><input type="checkbox" id="inStockOnly" /> In stock only</label>
+    </div>
+
+    <div class="sort">
+      <label for="sortSelect">Sort</label>
+      <select id="sortSelect" aria-label="Sort products">
+        <option value="relevance">Relevance</option>
+        <option value="price-asc">Price: Low → High</option>
+        <option value="price-desc">Price: High → Low</option>
+        <option value="name-asc">Name A → Z</option>
+        <option value="name-desc">Name Z → A</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="products" id="products">
+  <!-- <h2>Available Products</h2> -->
+  <div id="products-container" class="grid"></div>
+  
+</section>
+
+<!-- ================= TRUST ================= -->
+<section class="trust">
+  <div class="trust-card">⚡ Fast Delivery</div>
+  <div class="trust-card">🔒 Trusted Payments</div>
+  <div class="trust-card">💬 WhatsApp Support</div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta">
+  <h3>Need Help Ordering?</h3>
+  <p>Chat with us instantly on WhatsApp</p>
+  <a href="https://wa.me/233597323795" class="cta-btn">💬 Chat Now</a>
+</section>
+
+<!-- ================= MODAL ================= -->
+<div id="productModal" class="modal" inert>
+  <div class="modal-overlay"></div>
+  <div class="modal-content">
+    <button class="modal-close">✕</button>
+    <div class="modal-media"></div>
+    <div class="modal-thumbs"></div>
+    <div class="modal-info">
+      <h2 id="modalTitle"></h2>
+      <div id="modalPrice" class="modal-price"></div>
+      <p id="modalDescription"></p>
+      <ul id="modalSpecs"></ul>
+
+      <div class="modal-order-controls">
+        <label for="modalQuantity">Qty</label>
+        <input id="modalQuantity" type="number" min="1" value="1" aria-label="Quantity" />
+      </div>
+
+      <div class="modal-order-actions">
+        <a id="modalOrderBtn" class="buy-btn" target="_blank">Order Now</a>
+        <a id="modalNotifyBtn" class="notify-btn" target="_blank" rel="noopener" style="display:none; margin-left:0.6rem;">Notify Me</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <h3>APEX<span>MALL</span></h3>
+      <p>Your trusted digital shop.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Services</h4>
+      <a href="https://apexmall324.github.io/Apex-DataHub/">Data Bundles</a>
+      <a href="#">Web Development</a>
+      <a href="#">Document Services</a>
+      <a href="#">Graphic Design</a>
+
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>📞 0597323795</p>
+      <a href="https://wa.me/233597323795">WhatsApp</a>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">
+    © 2026 APEX MALL. All Rights Reserved.
+  </p>
+</footer>
+
+<!-- ================= BACK TO TOP BUTTON ================= -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

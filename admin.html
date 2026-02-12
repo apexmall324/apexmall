@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>APEX MALL — Admin</title>
+  <meta name="description" content="Admin interface for managing APEX MALL inventory. Edit product stock levels and export updated JSON for GitHub commits.">
+  <meta name="theme-color" content="#0A1AFF">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="admin-page">
+  <main class="admin-wrap">
+    <h1>APEX MALL — Inventory Admin</h1>
+    <p class="muted">This is a lightweight client-side admin tool. Changes are stored in your browser's localStorage and can be exported as a JSON file for manual commit to your GitHub repo.</p>
+
+    <div class="admin-controls">
+      <input id="adminSearch" placeholder="Search by name or id" />
+      <div class="admin-actions">
+        <button id="saveEdits" class="nav-btn">Save edits (local)</button>
+        <button id="downloadJson" class="nav-btn">Download updated JSON</button>
+        <button id="clearEdits" class="nav-btn nav-desktop">Clear local edits</button>
+      </div>
+    </div>
+
+    <section id="adminStatus" class="admin-status">Loading products…</section>
+
+    <section id="adminList" class="admin-list"></section>
+
+    <hr />
+    <p class="muted">Notes: To persist changes site-wide, download the updated JSON and commit it to your repository (replace <code>data/products.json</code>).</p>
+  </main>
+
+  <script>
+
+    (async function(){
+  const status = document.getElementById('adminStatus');
+  const list = document.getElementById('adminList');
+  const saveBtn = document.getElementById('saveEdits');
+  const downloadBtn = document.getElementById('downloadJson');
+  const clearBtn = document.getElementById('clearEdits');
+  const search = document.getElementById('adminSearch');
+
+  let originalJson = null;
+  let flatProducts = [];
+
+  function setStatus(msg) {
+    if (status) status.textContent = msg;
+  }
+
+  try {
+    originalJson = await fetch('data/products.json').then(r => r.json());
+  } catch (e) {
+    setStatus('Failed to load products.json: ' + e.message);
+    return;
+  }
+
+  // Flatten product objects for easy editing (keeps reference to original object)
+  function walkAndCollect(obj) {
+    if (Array.isArray(obj)) obj.forEach(walkAndCollect);
+    else if (obj && typeof obj === 'object') {
+      if (obj.id && (obj.name || obj.title)) {
+        flatProducts.push(obj);
+      }
+      Object.values(obj).forEach(walkAndCollect);
+    }
+  }
+
+  walkAndCollect(originalJson);
+
+  function render(items) {
+    list.innerHTML = '';
+    if (!items.length) {
+      list.innerHTML = '<p>No products found.</p>';
+      return;
+    }
+
+    const table = document.createElement('table');
+    table.className = 'admin-table';
+    const thead = document.createElement('thead');
+    thead.innerHTML = '<tr><th>ID</th><th>Image</th><th>Product</th><th>Category</th><th>Price</th><th>Stock</th></tr>';
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+
+    items.forEach(p => {
+      const tr = document.createElement('tr');
+
+      const img = p.image ? `<img src="${p.image}" alt="${p.name}" width="60" height="60">` : '';
+      const stockVal = (typeof p.stock === 'number') ? p.stock : '';
+
+      tr.innerHTML = `
+        <td class="mono">${p.id}</td>
+        <td>${img}</td>
+        <td class="prod-name">${escapeHtml(p.name)}</td>
+        <td>${escapeHtml(String(p.category || ''))}</td>
+        <td class="mono">${escapeHtml(String(p.price || ''))}</td>
+        <td><input class="stock-input" data-id="${p.id}" type="number" min="0" value="${stockVal}" placeholder="empty" /></td>
+      `;
+
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    list.appendChild(table);
+  }
+
+  function escapeHtml(s){ return String(s).replace(/[&<>'"]/g, (c)=>({'&':'&amp;','<':'&lt;','>':'&gt;','\'':'&#39;','"':'&quot;'}[c])); }
+
+  // load any saved edits and apply to inputs
+  function loadSavedEdits() {
+    const raw = localStorage.getItem('apexInventoryEdits');
+    if (!raw) return {};
+    try { return JSON.parse(raw); } catch { return {}; }
+  }
+
+  function applySavedToUI() {
+    const edits = loadSavedEdits();
+    document.querySelectorAll('.stock-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      if (edits[id] !== undefined) inp.value = edits[id];
+    });
+  }
+
+  // Save current table inputs to localStorage
+  saveBtn.addEventListener('click', () => {
+    const edits = {};
+    document.querySelectorAll('.stock-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      const v = inp.value;
+      if (v === '' || v === null) return; // skip
+      const n = Number(v);
+      if (!Number.isNaN(n)) edits[id] = n;
+    });
+
+    localStorage.setItem('apexInventoryEdits', JSON.stringify(edits));
+    setStatus('Saved edits to localStorage. Use Download to export or open the main site to see changes in this browser.');
+    // notify other tabs
+    window.dispatchEvent(new Event('storage'));
+  });
+
+  downloadBtn.addEventListener('click', () => {
+    const edits = loadSavedEdits();
+    // apply edits to a clone of original
+    const updated = JSON.parse(JSON.stringify(originalJson));
+    function applyTo(obj){
+      if (Array.isArray(obj)) obj.forEach(applyTo);
+      else if (obj && typeof obj === 'object'){
+        if (obj.id && edits[String(obj.id)] !== undefined) obj.stock = edits[String(obj.id)];
+        Object.values(obj).forEach(applyTo);
+      }
+    }
+    applyTo(updated);
+
+    const blob = new Blob([JSON.stringify(updated, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'products-updated.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    setStatus('Downloaded products-updated.json. Commit it to your repo to persist changes globally.');
+  });
+
+  clearBtn.addEventListener('click', () => {
+    localStorage.removeItem('apexInventoryEdits');
+    setStatus('Cleared saved edits.');
+    applySavedToUI();
+    window.dispatchEvent(new Event('storage'));
+  });
+
+  search.addEventListener('input', () => {
+    const q = (search.value || '').toLowerCase();
+    const filtered = flatProducts.filter(p => String(p.id).includes(q) || (p.name || '').toLowerCase().includes(q));
+    render(filtered);
+    applySavedToUI();
+  });
+
+  // Initial render
+  render(flatProducts);
+  applySavedToUI();
+  setStatus('Products loaded. You can edit quantities and Save or Download.');
+})();
+  </script>
+</body>
+</html>
