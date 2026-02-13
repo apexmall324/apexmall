@@ -1,0 +1,691 @@
+
+[
+    {
+            "pageBackground": "bags/mini-handbag.jpg",
+            "products": [
+                {
+                    "id": 201,
+                    "name": "Mini Glossy Jelly Candy Handbag - Black",
+                    "price": "GHS 50.00",
+                    "stock": 5,
+                    "image": "bags/mini-handbag-black.jpg", 
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag-black.jpg",
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag-black2.jpg",
+                        "bags/mini-handbag-black3.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag-black4.jpg",
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag-black5.jpg",
+                        "bags/mini-handbag-black6.jpg",
+                        "bags/mini-handbag3.jpg",
+                        "bags/mini-handbag-black7.jpg",
+                        "bags/mini-handbag-black8.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag-black1.jpg",
+                        "bags/mini-handbag-black9.jpg",
+                        "bags/mini-handbag-black10.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "Black",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+            },
+
+
+
+            {
+                    "id": 202,
+                    "name": "Mini Glossy Jelly Candy Handbag - White",
+                    "price": "GHS 50.00",
+                    "stock": 0,
+                    "image": "bags/mini-handbag-white.jpg", 
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag-white1.jpg",
+                        "bags/mini-handbag-white.jpg",
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag1.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag3.jpg",   
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag6.jpg",     
+                        "bags/mini-handbag7.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC (Jelly finish)",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "White",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+            },
+
+            {
+                    "id": 203,
+                    "name": "Mini Glossy Jelly Candy Handbag - Green",
+                    "price": "GHS 50.00",
+                    "stock": 2,
+                    "image": "bags/mini-handbag-green.jpg", 
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag1.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag3.jpg",
+                        "bags/mini-handbag-green.jpg",
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag6.jpg",     
+                        "bags/mini-handbag7.jpg",
+                        "bags/mini-handbag-green1.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC (Jelly finish)",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "Green",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+
+            },
+
+                {
+                    "id": 204,
+                    "name": "Mini Glossy Jelly Candy Handbag - Bubblegum Pink",
+                    "price": "GHS 50.00",
+                    "stock": 0,
+                    "image": "bags/mini-handbag-pink.jpg", 
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag-pink1.jpg",
+                        "bags/mini-handbag-pink2.jpg",
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag1.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag3.jpg",
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag6.jpg",     
+                        "bags/mini-handbag7.jpg",
+                        "bags/mini-handbag-pink.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC (Jelly finish)",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "Bubblegum Pink",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+                },
+
+                {
+                    "id": 205,
+                    "name": "Mini Glossy Jelly Candy Handbag - Yellow",
+                    "price": "GHS 50.00",
+                    "stock": 7,
+                    "image": "bags/mini-handbag-yellow.jpg",
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag-yellow1.jpg",
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag1.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag3.jpg",
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag6.jpg",     
+                        "bags/mini-handbag7.jpg",
+                        "bags/mini-handbag-yellow.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC (Jelly finish)",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "Yellow",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+                },
+
+
+                {
+                    "id": 206,
+                    "name": "Mini Glossy Jelly Candy Handbag - light Nude Pink",
+                    "price": "GHS 50.00",
+                    "stock": 3,
+                    "image": "bags/mini-handbag-light-nude-pink.jpg",
+                    "video": "videos/mini-bag.mp4",
+                    "category": "Bags & Slippers",
+                    "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+                    "details": [
+                        "bags/mini-handbag-light-nude-pink1.jpg",
+                        "bags/mini-handbag.jpg",
+                        "bags/mini-handbag1.jpg",
+                        "bags/mini-handbag2.jpg",
+                        "bags/mini-handbag3.jpg",
+                        "bags/mini-handbag4.jpg",
+                        "bags/mini-handbag5.jpg",
+                        "bags/mini-handbag6.jpg",     
+                        "bags/mini-handbag7.jpg",
+                        "bags/mini-handbag-light-nude-pink.jpg"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Material": "High-Quality Glossy PVC (Jelly finish)",
+                            "Closure": "Flap with Button Snap",
+                            "Straps": "Top Handle, Detachable Golden Chain",
+                            "Style": "Structured, Mini, Casual/Fashion"
+                        },
+                        "Dimensions": {
+                            "Color": "light Nude Pink",
+                            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+                            "Weight (Approx.)": "150g"
+                        },
+                        "Delivery": "Local Doorstep Delivery",
+                        "Package Includes": "1 x Handbag, 1 x Chain Strap"
+                    }
+
+                },
+
+                {
+                    "id" : 301,
+                    "name": "Rhombus Snakeskin Fashion Bag + Pocket Prefume Atomizer",
+                    "price": "GHS 100.00",
+                    "stock": 1,
+                    "image": "bags/rhombus-snakeskin-fashion-bag.jpg",
+                    "category": "Bags & Slippers",
+                    "description": "A stylish and trendy rhombus-patterned snakeskin fashion bag. Perfect for casual outings and adding a touch of elegance to your look. Pocket Prefume Atomizer '450405\n\n5ml Perfume Refill Bottle Portable Mini Refillable Spray Jar Scent Pump Empty Cosmetic Containers Atomizer Bottles for Travel' included.",
+                    "details": [
+                        "bags/rhombus-snakeskin-fashion-bag5.png",
+                        "bags/rhombus-snakeskin-fashion-bag1.jpg",
+                        "bags/rhombus-snakeskin-fashion-bag2.jpg",
+                        "bags/rhombus-snakeskin-fashion-bag3.jpg",
+                        "bags/rhombus-snakeskin-fashion-bag4.jpg"
+                    ],
+                    "specifications": {
+                        "Material": "High-Quality Synthetic Leather with Snakeskin Texture",
+                        "Design": "Rhombus Pattern, Structured Shape",
+                        "Straps": "Top Handle, Detachable Shoulder Strap",
+                        "Color": "Randomly Assigned",
+                        "Dimensions": "25 x 20 x 10 cm (W x H x D)",
+                        "Weight": "300g",
+                        "Closure": "Zipper with Magnetic Snap",
+                        "Package Includes": "1 x Fashion Bag, 1 x Detachable Strap, 1 x Pocket Perfume Atomizer"
+                    },
+                    "delivery": "2-4 Days",
+                    "link": "https://myduke.co/hjrhqtdoujtf6c4iqfu2nibp"
+                },
+
+                {
+                    "id": 855734,
+                    "name": "Heart-Shaped Clutch Bag -  Silver",
+                    "price": "GHS 180.00",
+                    "stock": 0,
+                    "image": "bags/heart-clutch-bag-silver.png", 
+                    "category": "Bags & Slippers",
+                    "description": "Add a touch of charm and elegance to your outfit with this stylish heart-shaped clutch. It comes with both long and short handles, allowing you to carry it as a clutch or a sling bag, perfect for evening events and special occasions.",
+
+                    "details": [
+                        "bags/heart-clutch-bag-silver2.png",
+                        "bags/heart-clutch-bag-silver1.png",
+                        "bags/heart-clutch-bag-silver.png"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Shape": "Unique Heart-Shaped",
+                            "Material": "Durable Polyester and Metal Accents",
+                            "Carrying Style": "Clutch or Sling Bag (2-in-1)",
+                            "Handles": "Long and Short Handles Included",
+                            "SKU": "855734"
+                    },
+                    "Dimensions": {
+                        "Size (Approx.)": "12 x 16 x 8 cm (H x W x D)",
+                        "Feature": "Lightweight and Fashionable"
+                    },
+                    "Color": "Silver",
+                    "Occasion": "Evening Events, Parties, Dinners"
+                },
+                "delivery": "1-2 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+
+                {
+                    "id": 855735,
+                    "name": "Heart-Shaped Clutch Bag -  Gold",
+                    "price": "GHS 180.00",
+                    "image": "bags/heart-clutch-bag-gold.png", 
+                    "category": "Bags & Slippers",
+                    "description": "Add a touch of charm and elegance to your outfit with this stylish heart-shaped clutch. It comes with both long and short handles, allowing you to carry it as a clutch or a sling bag, perfect for evening events and special occasions.",
+                    "details": [
+                        "bags/heart-clutch-bag-gold2.png",
+                        "bags/heart-clutch-bag-gold-main.png",
+                        "bags/heart-clutch-bag-gold1.png",
+                        "bags/heart-clutch-bag-gold.png"
+                    ],
+                    "specifications": {
+                        "Design": {
+                            "Shape": "Unique Heart-Shaped",
+                            "Material": "Durable Polyester and Metal Accents",
+                            "Carrying Style": "Clutch or Sling Bag (2-in-1)",
+                            "Handles": "Long and Short Handles Included",
+                            "SKU": "855735"
+                    },
+                    "Dimensions": {
+                        "Size (Approx.)": "12 x 16 x 8 cm (H x W x D)",
+                        "Feature": "Lightweight and Fashionable"
+                    },
+                    "Color": "Gold",
+                    "Occasion": "Evening Events, Parties, Dinners"
+                },
+                "delivery": "1-2 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+            {
+
+                "id": 137716,
+                "name": "Mini Square Candy-Colored Handbags with Buckle Closure & Detachable Strap + Coin Purse - Pink",
+                "price": "GHS 100.00",
+                "image": "bags/mini-square-candy-colored-handbag-pink.jpg",
+                "category": "Bags & Slippers",
+                "description": "These are fashionable candy-colored mini square ladies' handbag sets that typically include a main bag and a smaller coin purse. The bags are known for their bright colors and come in several variations.",
+                "details": [
+                    "bags/mini-square-candy-colored-handbag-pink1.jpg",
+                    "bags/mini-square-candy-colored-handbag2.jpg",
+                    "bags/mini-square-candy-colored-handbag1.jpg",
+                    "bags/mini-square-candy-colored-handbag-pink1.jpg",
+                    "bags/mini-square-candy-colored-handbag.jpg",
+                    "bags/mini-square-candy-colored-handbag.png",
+                    "bags/mini-square-candy-colored-handbag-pink.jpg",
+                    "bags/mini-square-candy-colored-handbag-white.jpg"
+                ],
+                "specifications": {
+                    "Product Name": "Mini Square Candy-Colored Handbags with Buckle Closure & Detachable Strap + Coin Purse",
+                    "Model Number": "137716-000",  
+                    "Color": "Pink", 
+                    "Style": "Mini square top-handle bags with a trendy design.",
+                    "Features": "They usually come as a set with a main bag and a small matching coin purse attached by a short chain. They also feature a large, prominent buckle closure and a detachable, adjustable shoulder strap for crossbody use.",
+                    "Material": "They are typically made from PU leather."
+                },
+                "delivery": "2-4 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+            },
+
+            {
+                "id": 137717,
+                "name": "Mini Square Candy-Colored Handbags with Buckle Closure & Detachable Strap + Coin Purse - White",
+                "price": "GHS 100.00",
+                "image": "bags/mini-square-candy-colored-handbag-white.jpg",
+                "category": "Bags & Slippers",
+                "description": "These are fashionable candy-colored mini square ladies' handbag sets that typically include a main bag and a smaller coin purse. The bags are known for their bright colors and come in several variations.",
+                "details": [
+                    "bags/mini-square-candy-colored-handbag-pink1.jpg",
+                    "bags/mini-square-candy-colored-handbag2.jpg",
+                    "bags/mini-square-candy-colored-handbag1.jpg",
+                    "bags/mini-square-candy-colored-handbag-pink1.jpg",
+                    "bags/mini-square-candy-colored-handbag-white1.jpg",
+                    "bags/mini-square-candy-colored-handbag.jpg",
+                    "bags/mini-square-candy-colored-handbag.png",
+                    "bags/mini-square-candy-colored-handbag-pink.jpg",
+                    "bags/mini-square-candy-colored-handbag-white.jpg"
+                ],
+                "specifications": {
+                    "Product Name": "Mini Square Candy-Colored Handbags with Buckle Closure & Detachable Strap + Coin Purse",
+                    "Model Number": "137717-000",  
+                    "Color": "White", 
+                    "Style": "Mini square top-handle bags with a trendy design.",
+                    "Features": "They usually come as a set with a main bag and a small matching coin purse attached by a short chain. They also feature a large, prominent buckle closure and a detachable, adjustable shoulder strap for crossbody use.",
+                    "Material": "They are typically made from PU leather."
+                },
+                "delivery": "2-4 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "id": 606017,
+                "name": "Silver Crest 5L Smart Multi-Functional Rice Cooker",
+                "price": "GHS 450.00",
+                "image": "Home-Appliances/silver-crest-5L-rice-cooker3.jpg",
+                "category": "Home Appliances",
+                "description": "The Silver Crest 5L Smart Multi-Functional Rice Cooker is the ultimate kitchen essential, featuring a digital control panel, non-stick pot, and preset functions for perfect rice, soups, stews, and more. Ideal for families (2-8 people).",
+                "details": [
+                    "Home-Appliances/silver-crest-5L-rice-cooker.png",
+                    "Home-Appliances/silver-crest-5L-rice-cooker1.jpg",
+                    "Home-Appliances/silver-crest-5L-rice-cooker.png",
+                    "Home-Appliances/silver-crest-5L-rice-cooker.png",
+                    "Home-Appliances/silver-crest-5L-rice-cooker2.jpg",
+                    "Home-Appliances/silver-crest-5L-rice-cooker3.jpg",
+                    "Home-Appliances/silver-crest-5L-rice-cooker4.webp",
+                    "Home-Appliances/silver-crest-5L-rice-cooker5.webp",
+                    "Home-Appliances/silver-crest-5L-rice-cooker6.webp",
+                    "Home-Appliances/silver-crest-5L-rice-cooker7.webp",
+                    "Home-Appliances/silver-crest-5L-rice-cooker8.webp"
+                ],
+                "specifications": {
+                    "Key Attributes": {
+                        "Capacity": "5 Liters (Ideal for 2-8 people)",
+                        "Power Consumption": "700W",
+                        "Control Panel": "Smart Digital with Preset Functions (User-friendly)",
+                        "Inner Pot": "Non-Stick Coating (Easy to clean and ensures even cooking)"
+                    },
+                    "Cooking Capabilities": {
+                        "Functions": "Rice Cooking, Steaming, Soup Making, Stews, Porridge, Slow Cooking",
+                        "Technology": "Advanced Heating (Consistent temperature for fluffy rice)",
+                        "Feature": "Automatic Keep-Warm Function"
+                    },
+                    "Safety & Efficiency": {
+                        "Safety Features": "Overheat Protection, Anti-Dry Burn Technology",
+                        "Efficiency": "Energy-Efficient & Time-Saving",
+                        "Material": "Durable Plastic and Stainless Steel"
+                    },
+                    "Other Details": {
+                        "Model Number": "606017",
+                        "Dimensions": "30 x 30 x 25 cm (L x W x H)",
+                        "Weight": "2.5 kg",
+                        "Color": "White and Silver",
+                        "Accessories Included": "Steaming Tray, Rice Spoon, Measuring Cup",
+                        "Warranty": "1 Year Manufacturer's Warranty"
+                    }
+                },
+                "delivery": "2-4 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com",
+                "fullDescription": "Silver Crest 5L Smart Multi-Functional Rice Cooker – The Ultimate Kitchen Essential.\n\nTransform your cooking with this intelligent cooker, a must-have appliance for every modern kitchen. Designed for versatility, convenience, and efficiency, this cooker allows you to prepare a variety of meals with ease. Whether you're a busy professional, a student, or a homemaker, this appliance is designed to save you time and enhance your cooking experience."
+            },
+
+
+
+                {
+                "id": 113180,
+                "name": "Rose Sucker 2 in 1 Vibrator",
+                "price": "GHS 330",
+                "image": "Electronics/rose_sucker_2_in_1_vibrator.jpg",
+                "video": "videos/rose sucker 2 in 1 vibrator.mp4",
+                "category": "Sex Toys",
+                "description": "Rose Sucker 2 in 1 Vibrator\n\nSKU: 113181\n\nMultifunctional Vibrator - The rose vibrator can stimulate the clitoris and nipples, Thrusting vibrator can stimulate the clitoris and anus. 2 in 1 design combined visual beauty and physical comfort, bringing you to enjoy realistic sex feeling.",
+                "details": [
+                    "Electronics/rose_sucker_2_in_1_vibrator.jpg",
+                    "Electronics/rose_sucker_2_in_1_vibrator1.jpg",
+                    "Electronics/rose_sucker_2_in_1_vibrator2.jpg",
+                    "Electronics/rose_sucker_2_in_1_vibrator3.jpg",
+                    "Electronics/rose_sucker_2_in_1_vibrator4.jpg",
+                    "Electronics/rose_sucker_2_in_1_vibrator5.jpg"
+                ],
+                "delivery":     "3-5 working days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+
+                {
+                    "id": 113181,
+                    "name": "Rose Sucker 2 in 1 Vibrator",
+                    "price": "GHS 330",
+                    "image": "Electronics/rose_sucker_2in1_vibrator1.avif",
+                    "video": "videos/rose sucker 2 in 1 vibrator1.mp4",
+                    "category": "Sex Toys",
+                    "description": "Rose Sucker 2 in 1 Vibrator\n\nSKU: 113181\n\nMultifunctional Vibrator - The rose vibrator can stimulate the clitoris and nipples, Thrusting vibrator can stimulate the clitoris and anus. 2 in 1 design combined visual beauty and physical comfort, bringing you to enjoy realistic sex feeling.",
+                    "details": [
+                        "Electronics/rose_sucker_2in1_vibrator.avif",
+                        "Electronics/rose_sucker_2in1_vibrator1.avif",
+                        "Electronics/rose_sucker_2in1_vibrator2.avif",
+                        "Electronics/rose_sucker_2in1_vibrator3.avif"
+                    ],
+                    "delivery":     "3-5 working days",
+                    "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+
+
+          {
+                    "id": 1131811,
+                    "name": "Rose Sucker 2 in 1 Vibrator",
+                    "price": "GHS 330",
+                    "image": "Electronics/rose_sucker_2in1_vibrator1.avif",
+                    "video": "videos/rose sucker 2 in 1 vibrator2.mp4",
+                    "category": "Sex Toys",
+                    "description": "Rose Sucker 2 in 1 Vibrator\n\nSKU: 113181\n\nMultifunctional Vibrator - The rose vibrator can stimulate the clitoris and nipples, Thrusting vibrator can stimulate the clitoris and anus. 2 in 1 design combined visual beauty and physical comfort, bringing you to enjoy realistic sex feeling. This multifunctional pleasure device is designed to provide dual stimulation through its innovative 2-in-1 design. The rose-shaped suction head delivers focused stimulation to sensitive external areas such as the clitoris and nipples, while the thrusting function offers rhythmic motion for enhanced internal and external pleasure.By combining air-pulse suction with controlled thrusting movement, this vibrator allows users to experience layered sensations that can be adjusted to personal comfort and intensity preferences. Its ergonomic shape ensures ease of use, while the elegant rose design blends visual appeal with functional comfort.The Rose Sucker 2-in-1 Vibrator is ideal for those seeking a more immersive and customizable intimate experience, offering both gentle exploration and more intense stimulation in one stylish device.",
+                    "details": [
+                        "Electronics/rose_sucker_2in1_vibrator.avif",
+                        "Electronics/rose_sucker_2in1_vibrator1.avif",
+                        "Electronics/rose_sucker_2in1_vibrator2.avif",
+                        "Electronics/rose_sucker_2in1_vibrator3.avif"
+                    ],
+                    "delivery":     "3-5 working days",
+                    "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+
+                {
+                    "id": 113182,
+                    "name": "Rose V Sucker",
+                    "price": "GHS 221",
+                    "image": "Electronics/rose_v_sucker.avif",
+                    "video": "videos/rose v sucker.mp4",
+                    "category": "Sex Toys",
+                    "description": "Rose V Sucker\n\nSKU: 113182\n\n  Features:* Feature beautiful rose-shaped design with elegant red color, ensuring strong privacy.* Built in 10 frequency modes, sucking+vibrating, effectively meet various needs of users. * Precision motion offers powerful suction to double your pleasure.* Soft silicone material, skin-friendly, non-toxic and no odor, brings comfortable and smooth tactility to body.* Low noise design allows you to enjoy quiet and soft personal time without disturbing others.* USB magnetic charging, can charged quickly via PC, power adapter, etc.* Waterproof body, easily adapts to daily water splashing, more convenient to clean.Note:* Please read the user manual carefully before using this product.* DO NOT use this product while charging.* Try to use with water-based lubricant.* Please wash it with warm or soapy water before and after use.* Please store it in a cool and dry place. Keep out direct sunlight.Specifications:Model: WM52-02Material: ABS+SiliconeColor: RedBattery Capacity: 3.7V / 300mAhCharging Mode: USB Magnetic ChargingCharging Time: about 2.5HWorking Time: about 90mins (full power state)Noise Index:＜65dBItem Size: 59 * 59 * 66mm / 2.32 * 2.32 * 2.6inItem Weight: 101g / 3.56ozPackage Size: 93 * 122 * 73.5mm / 3.66 * 4.8 * 2.89inPackage Weight: 247g / 8.71ozPackage List:1 * Sucking Massager1 * Magnetic Charging Cable1 * User Manual",
+                    "details": [
+                        "Electronics/rose_v_sucker3.avif",
+                        "Electronics/rose_v_sucker.avif",
+                        "Electronics/rose_v_sucker1.avif",
+                        "Electronics/rose_v_sucker2.avif",
+                        "Electronics/rose_v_sucker4.avif",
+                        "Electronics/rose_v_sucker5.avif",
+                        "Electronics/rose_v_sucker6.avif",
+                        "Electronics/rose_v_sucker7.avif"
+                    ],  
+                    "delivery": "3-5 working days",
+                    "link": "https://apexkxuvz-qef6.mydukeshop.com"
+
+                },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                {   
+                "id": 102,
+                "name": "10-inch Bluetooth Rechargeable Mini Keyboard & Mouse Combo - 78 Keys Black",
+                "price": "GHS 130.00",
+                "image": "Electronics/apexmall-wireless-keyboard-mouse-set-white-main.jpg", 
+                "video": "videos/10inch BT Rechargeable Mini Keyboard Mouse Combo 78 Keys.mp4",
+                "category": "Gadgets",
+                "description": "A compact and lightweight 10-inch Bluetooth keyboard and mouse combo designed for mobile phones, tablets, laptops, and PCs. Perfect for office work, school, and everyday typing on the go. Includes silent mouse buttons and a rechargeable keyboard battery.",
+                "details": [
+                    "Electronics/keyboard-mouse-combo.jpg",
+                    "Electronics/keyboard-mouse1.jpg",
+                    "Electronics/keyboard-mouse2.jpg",
+                    "Electronics/keyboard-mouse3.jpg",
+                    "Electronics/keyboard-mouse4.jpg"
+                ],
+                "specifications": {
+                    "Keyboard": {
+                        "Keys": "78",
+                        "BT Version": "3.0",
+                        "Battery": "150mAh Rechargeable Lithium",
+                        "Size": "24.5 x 15 x 0.6 cm",
+                        "Weight": "176g",
+                        "Feature": "Scissor-switch keys, Shortcut keys"
+                    },
+                    "Mouse": {
+                        "Keys": "4",
+                        "BT Version": "5.0",
+                        "DPI": "800/1200/1600",
+                        "Battery": "1*AA (Not included)",
+                        "Size": "11 x 5.8 x 2.5 cm",
+                        "Weight": "47.6g",
+                        "Feature": "Silent click buttons, Ergonomic"
+                    },
+                    "Compatibility": "Windows/Android/iOS/Mac OS",
+                    "Color": "Black",
+                    "Package Includes": "Keyboard, Mouse, Charging Cable, User Manual"
+                },
+                "delivery": "2-4 Days",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+                },
+            {
+                "id": 104,
+                "name": "Bulb WIFI Monitoring Camera",
+                "price": "GHS 250.00",
+                "image": "Electronics/bulb_wifi_monitoring_camera.avif",
+                "video": "videos/bulb wifi monitoring camera.mp4",
+                "category": "Gadgets",
+                "description": "A discreet and innovative security camera that looks like a light bulb. Easy to install and use.",
+                "link": "https://apexkxuvz-qef6.mydukeshop.com"
+                },
+
+
+
+      
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+                {
+                "id": 701,
+                "name": "AirtelTigo 30GB",
+                "price": "GHS 120.00",
+                "image": "Data-Bundle/at30.png",
+                "category": "Data Bundles",
+                "description": "Mega 30GB AirtelTigo data bundle. Perfect for your monthly needs. Long validity. Order now!",
+                "link": "https://apexmall324.github.io/Apex-DataHub/" 
+                },
+
+                {
+                "id": 702,
+                "name": "MTN 30GB",
+                "price": "GHS 135.00",
+                "image": "Data-Bundle/mtn30.png",
+                "category": "Data Bundles",
+                "description": "Super 30GB MTN data bundle. Ideal for streaming, browsing, and social media. Get yours today!",
+                "link": "https://apexmall324.github.io/Apex-DataHub/" 
+                },
+
+                {
+                "id": 703,
+                "name": "Telecel 30GB",
+                "price": "GHS 124.00",
+                "image": "Data-Bundle/t30.png",
+                "category": "Data Bundles",
+                "description": "Value-packed 30GB Telecel data bundle. Great for all your online activities. Buy now!",
+                "link": "https://apexmall324.github.io/Apex-DataHub/" 
+                },
+                {
+                "id": 704,
+                "name": "Telecel 5GB",
+                "price": "GHS 29.00",
+                "image": "Data-Bundle/t5.png",
+                "category": "Data Bundles",
+                "description": "Reliable 5GB Telecel data bundle. Perfect for work and entertainment. Order yours now!",
+                "link": "https://apexmall324.github.io/Apex-DataHub/" 
+                }
+                
+            ]
+            },
+            {
+    "id": 3,
+    "name": "CV Writing Service",
+    "price": "GHS 10.00",
+    "image": "doc-services.jpg",
+    "category": "Documents",
+    "description": "Professional CV Writing Service to help you stand out in the job market.",
+    "specifications": {
+        "Service Type": "CV Writing",
+        "Delivery Time": "3-5 Business Days",
+        "Revisions": "2 Free Revisions Included",
+        "Format": "Microsoft Word and PDF",
+        "Contact": "https://wa.me/233597323795"
+    }
+    }
+        ]
