@@ -254,7 +254,7 @@ img {
    =============================== */
 .hero {
   background: linear-gradient(rgba(10,26,255,0.75), rgba(10,26,255,0.75)),
-              url("images/logo.png") center/cover no-repeat;
+              url("logo.png") center/cover no-repeat;
   background-attachment: fixed;
   color: #fff;
   text-align: center;
@@ -1556,6 +1556,7 @@ body.modal-open {
   .admin-controls { flex-direction: column; gap:0.6rem; }
   .admin-controls input { width: 100%; }
 }
+
 
 
 
