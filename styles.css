@@ -1347,7 +1347,7 @@ img {
 
 /* Narrow phones: 3-up */
 @media (max-width: 420px) {
-  #products-container { grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+  #products-container { grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
   .product-card h4 { font-size: 0.86rem; }
   .product-card .price { font-size: 0.78rem; }
   .product-card .buy-btn { font-size: 0.72rem; padding: 0.28rem 0.36rem; }
@@ -1556,5 +1556,6 @@ body.modal-open {
   .admin-controls { flex-direction: column; gap:0.6rem; }
   .admin-controls input { width: 100%; }
 }
+
 
 
