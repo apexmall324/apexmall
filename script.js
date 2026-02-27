@@ -216,7 +216,8 @@ function normalizeProduct(p) {
     price: priceString,
     priceNumber: priceNumber,
     stock: stockNumber,
-    currency: String(p.currency || "").trim(),
+    // default to GHS if no currency provided so prices always show a symbol
+  currency: String(p.currency || "GHS").trim(),
     image:
       p.image ||
       (details && details[0]) ||
@@ -965,6 +966,8 @@ function applyLocalInventoryEdits() {
           if (!Number.isNaN(n)) {
             p.price = n;
             p.priceNumber = n;
+            // if currency was empty (may happen for legacy entries), default to GHS
+            if (!p.currency) p.currency = 'GHS';
             mutated = true;
           }
         }
