@@ -11,31 +11,36 @@
   <meta name="theme-color" content="#0A1AFF">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
+  <a class="skip-link" href="#products">Skip to content</a>
 
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar">
   <a href="index.html" class="logo">APEX<span>MALL</span></a>
 
-  <input 
-    type="search"
-    id="searchInput"
-    placeholder="Search products..."
-    class="search-bar"
-    aria-label="Search products"
-  >
+  <div class="search-wrapper">
+    <input 
+      type="search"
+      id="searchInput"
+      placeholder="Search by name or category..."
+      class="search-bar"
+      aria-label="Search products"
+      autocomplete="off"
+    >
+    <div id="searchSuggestions" class="search-suggestions" role="listbox" aria-label="Search suggestions"></div>
+  </div>
   <!-- Mobile dropdown menu (categories, WhatsApp, quick links) -->
   <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
     <div class="mobile-menu-inner">
       <h4>Menu</h4>
       <div id="mobileCategories" class="mobile-categories"></div>
-      <a class="mobile-link" href="https://wa.me/233597323795" Microsoft.QuickAction.WiFitarget="_blank" rel="noopener noreferrer">💬 WhatsApp to Purchase</a>
+      <a class="mobile-link" href="https://wa.me/233597323795" target="_blank" rel="noopener noreferrer">💬 WhatsApp to Purchase</a>
       <a class="mobile-link" href="#products">Browse Products</a>
       <a class="mobile-link" href="https://apexmall324.github.io/Apex-DataHub/">Data Bundles</a>
     </div>
@@ -46,7 +51,7 @@
       <span class="hamburger" aria-hidden="true"></span>
     </button>
 
-    <a href="https://wa.me/233597323795" class="nav-btn nav-desktop">Order Now</a>
+    <a href="https://wa.me/233597323795" class="nav-btn nav-desktop" target="_blank" rel="noopener noreferrer">Order Now</a>
   </div>
 
 
@@ -118,10 +123,10 @@
 </section>
 
 <!-- ================= MODAL ================= -->
-<div id="productModal" class="modal" inert>
+<div id="productModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" tabindex="-1" inert>
   <div class="modal-overlay"></div>
   <div class="modal-content">
-    <button class="modal-close">✕</button>
+    <button class="modal-close" aria-label="Close dialog">✕</button>
     <div class="modal-media"></div>
     <div class="modal-thumbs"></div>
     <div class="modal-info">
@@ -136,7 +141,7 @@
       </div>
 
       <div class="modal-order-actions">
-        <a id="modalOrderBtn" class="buy-btn" target="_blank">Order Now</a>
+        <a id="modalOrderBtn" class="buy-btn" target="_blank" rel="noopener noreferrer">Order Now</a>
         <a id="modalNotifyBtn" class="notify-btn" target="_blank" rel="noopener" style="display:none; margin-left:0.6rem;">Notify Me</a>
       </div>
     </div>
@@ -177,6 +182,6 @@
 <!-- ================= BACK TO TOP BUTTON ================= -->
 <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
