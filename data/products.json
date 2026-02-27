@@ -1,587 +1,806 @@
-
 [
-    {
-        "pageBackground": "bags/Heart Bag/heart-clutch-bag-gold-main.png",
-        "products": [
-            {
-                "id": 201,
-                "name": "Heart Clutch Bag - Gold",
-                "price": "GHS 180.00",
-                "stock": 8,
-                "image": "bags/Heart Bag/heart-clutch-bag-gold-main.png",
-                "category": "Bags & Slippers",
-                "description": "An adorable heart-shaped clutch bag with a luxurious gold finish. Perfect for special occasions and everyday use. Features a elegant design with a secure closure and comfortable carrying.",
-                "details": [
-                    "bags/Heart Bag/heart-clutch-bag-gold-main.png",
-                    "bags/Heart Bag/heart-clutch-bag-gold.png",
-                    "bags/Heart Bag/heart-clutch-bag-gold1.png",
-                    "bags/Heart Bag/heart-clutch-bag-gold2.png"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Premium PVC",
-                        "Style": "Heart-Shaped, Clutch",
-                        "Color": "Gold"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Heart Clutch Bag"
-                },
-                "delivery": "1-2 Days",
-                "link": "https://apexkxuvz-qef6.mydukeshop.com"
-            },
-            {
-                "id": 202,
-                "name": "Heart Clutch Bag - Silver",
-                "price": "GHS 180.00",
-                "stock": 6,
-                "image": "bags/Heart Bag/heart-clutch-bag-silver.png",
-                "category": "Bags & Slippers",
-                "description": "A beautiful heart-shaped clutch bag in elegant silver. Perfect for adding a touch of sophistication to any outfit.",
-                "details": [
-                    "bags/Heart Bag/heart-clutch-bag-silver.png",
-                    "bags/Heart Bag/heart-clutch-bag-silver1.png",
-                    "bags/Heart Bag/heart-clutch-bag-silver2.png"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Premium PVC",
-                        "Style": "Heart-Shaped, Clutch",
-                        "Color": "Silver"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Heart Clutch Bag"
-                },
-                "delivery": "1-2 Days",
-                "link": "https://apexkxuvz-qef6.mydukeshop.com"
-            }
-        ]
-    },
-    {
-        "pageBackground": "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
-        "products": [
-            {
-                "id": 203,
-                "name": "Mini Glossy Jelly Candy Handbag - Black",
-                "price": "GHS 50.00",
-                "stock": 5,
-                "image": "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
-                "video": "bags/Mini Glossy Jelly Handbag/mini-bag.mp4",
-                "category": "Bags & Slippers",
-                "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
-                "details": [
-                    "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
-                    "bags/Mini Glossy Jelly Handbag/mini-handbag-black1.jpg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "High-Quality Glossy PVC",
-                        "Closure": "Flap with Button Snap",
-                        "Straps": "Top Handle, Detachable Golden Chain",
-                        "Style": "Structured, Mini, Casual/Fashion"
-                    },
-                    "Dimensions": {
-                        "Color": "Black",
-                        "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
-                        "Weight (Approx.)": "150g"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Handbag, 1 x Chain Strap"
-                }
-            }
-        ]
-    },
-    {
-        "pageBackground": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag.jpg",
-        "products": [
-            {
-                "id": 204,
-                "name": "Mini Square Candy Colored Handbag - Black",
-                "price": "GHS 45.00",
-                "stock": 7,
-                "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-black.jpg",
-                "category": "Bags & Slippers",
-                "description": "A charming mini square handbag in attractive candy colors. Perfect for fashion-forward individuals who love compact, stylish bags with vibrant aesthetics.",
-                "details": [
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-black.jpg",
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag.jpg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Premium PVC",
-                        "Style": "Square, Mini, Candy-Colored",
-                        "Color": "Black"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Handbag"
-                }
-            },
-            {
-                "id": 205,
-                "name": "Mini Square Candy Colored Handbag - Pink",
-                "price": "GHS 45.00",
-                "stock": 9,
-                "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink.jpg",
-                "category": "Bags & Slippers",
-                "description": "An adorable mini square handbag in a lovely pink color. A perfect accessory for adding a pop of color to your outfit.",
-                "details": [
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink.jpg",
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink1.jpg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Premium PVC",
-                        "Style": "Square, Mini, Candy-Colored",
-                        "Color": "Pink"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Handbag"
-                }
-            },
-            {
-                "id": 206,
-                "name": "Mini Square Candy Colored Handbag - White",
-                "price": "GHS 45.00",
-                "stock": 5,
-                "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white.jpg",
-                "category": "Bags & Slippers",
-                "description": "An elegant mini square handbag in crisp white. A versatile classic that matches any style.",
-                "details": [
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white.jpg",
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white1.jpg",
-                    "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white2.jpg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Premium PVC",
-                        "Style": "Square, Mini, Candy-Colored",
-                        "Color": "White"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Handbag"
-                }
-            }
-        ]
-    },
-    {
-        "pageBackground": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg",
-        "products": [
-            {
-                "id": 207,
-                "name": "Quilted Drawstring Bucket Bag - Blue",
-                "price": "GHS 75.00",
-                "stock": 4,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure. Perfect for casual outings and everyday use. Available in multiple colors.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Blue"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 208,
-                "name": "Quilted Drawstring Bucket Bag - Brown",
-                "price": "GHS 75.00",
-                "stock": 3,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Brown.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in rich brown. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Brown.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Brown"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 209,
-                "name": "Quilted Drawstring Bucket Bag - Coffee",
-                "price": "GHS 75.00",
-                "stock": 6,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Coffee.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in warm coffee tone. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Coffee.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Coffee"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 210,
-                "name": "Quilted Drawstring Bucket Bag - Pink",
-                "price": "GHS 75.00",
-                "stock": 5,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Pink.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in soft pink. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Pink.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Pink"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 211,
-                "name": "Quilted Drawstring Bucket Bag - Red",
-                "price": "GHS 75.00",
-                "stock": 4,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Red.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in vibrant red. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Red.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Red"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 212,
-                "name": "Quilted Drawstring Bucket Bag - White",
-                "price": "GHS 75.00",
-                "stock": 7,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-White.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in clean white. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-White.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "White"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            },
-            {
-                "id": 213,
-                "name": "Quilted Drawstring Bucket Bag - Yellow",
-                "price": "GHS 75.00",
-                "stock": 5,
-                "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Yellow.jpeg",
-                "category": "Bags & Slippers",
-                "description": "A stylish quilted bucket bag with a convenient drawstring closure in bright yellow. Perfect for casual outings.",
-                "details": [
-                    "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Yellow.jpeg"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Quilted Fabric",
-                        "Closure": "Drawstring",
-                        "Style": "Bucket Bag",
-                        "Color": "Yellow"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Bucket Bag"
-                }
-            }
-        ]
-    },
-    {
-        "pageBackground": "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
-        "products": [
-            {
-                "id": 214,
-                "name": "Rhombus Snakeskin Fashion Bag",
-                "price": "GHS 100.00",
-                "stock": 8,
-                "image": "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
-                "category": "Bags & Slippers",
-                "description": "A stunning fashion bag featuring a trendy rhombus pattern with snakeskin texture. Perfect for making a bold statement with your style. High-quality material ensures durability and elegance.",
-                "details": [
-                    "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
-                    "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag1.jpg",
-                    "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag2.jpg",
-                    "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag3.jpg",
-                    "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag4.jpg",
-                    "bags/Rhombus Snakeskin Bag/rhombus-snakeskin-fashion-bag5.png"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Snakeskin Texture PVC/Synthetic",
-                        "Pattern": "Rhombus",
-                        "Style": "Fashion Bag",
-                        "Closure": "Secure Closure"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Fashion Bag"
-                },
-                "delivery": "2-4 Days",
-                "link": "https://myduke.co/hjrhqtdoujtf6c4iqfu2nibp"
-            }
-        ]
-    },
-    {
-        "pageBackground": "bags/WaistBag/waistbag1.avif",
-        "products": [
-            {
-                "id": 215,
-                "name": "Waist Bag",
-                "price": "GHS 35.00",
-                "stock": 10,
-                "image": "bags/WaistBag/waistbag1.avif",
-                "video": "bags/WaistBag/Waist bag.mp4",
-                "category": "Bags & Slippers",
-                "description": "A practical and stylish waist bag perfect for hands-free carrying. Ideal for travel, outdoor activities, and everyday use. Features a secure fit and convenient compartments.",
-                "details": [
-                    "bags/WaistBag/waistbag1.avif",
-                    "bags/WaistBag/waistbag2.avif"
-                ],
-                "specifications": {
-                    "Design": {
-                        "Material": "Durable Fabric",
-                        "Style": "Waist Bag, Crossbody",
-                        "Closure": "Secure Zip"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Waist Bag"
-                }
-            }
-        ]
-    },
-    {
-        "pageBackground": "Data-Bundle/at30.png",
-        "products": [
-            {
-                "id": 301,
-                "name": "AT 30 Data Bundle",
-                "price": "GHS 30.00",
-                "stock": 50,
-                "image": "Data-Bundle/at30.png",
-                "category": "Data Bundles",
-                "description": "Get instant access to high-speed data with AT 30 Data Bundle. Perfect for browsing, streaming, and staying connected throughout the day.",
-                "details": [
-                    "Data-Bundle/at30.png"
-                ],
-                "specifications": {
-                    "Type": {
-                        "Provider": "AT Mobile",
-                        "Bundle": "30 Data",
-                        "Validity": "30 Days"
-                    },
-                    "Delivery": "Digital Delivery",
-                    "Package Includes": "1 x AT 30 Data Bundle"
-                },
-                "link": "https://apexmall324.github.io/Apex-DataHub/"
-            },
-            {
-                "id": 302,
-                "name": "MTN 30 Data Bundle",
-                "price": "GHS 135.00",
-                "stock": 50,
-                "image": "Data-Bundle/mtn30.png",
-                "category": "Data Bundles",
-                "description": "Get instant access to high-speed data with MTN 30 Data Bundle. Perfect for staying online and enjoying uninterrupted connectivity.",
-                "details": [
-                    "Data-Bundle/mtn30.png"
-                ],
-                "specifications": {
-                    "Type": {
-                        "Provider": "MTN Ghana",
-                        "Bundle": "30 Data",
-                        "Validity": "30 Days"
-                    },
-                    "Delivery": "Digital Delivery",
-                    "Package Includes": "1 x MTN 30 Data Bundle"
-                },
-                "link": "https://apexmall324.github.io/Apex-DataHub/"
-            },
-            {
-                "id": 303,
-                "name": "Vodafone 30 Data Bundle",
-                "price": "GHS 124.00",
-                "stock": 50,
-                "image": "Data-Bundle/t30.png",
-                "category": "Data Bundles",
-                "description": "Get instant access to high-speed data with Vodafone 30 Data Bundle. Reliable connectivity for all your online needs.",
-                "details": [
-                    "Data-Bundle/t30.png"
-                ],
-                "specifications": {
-                    "Type": {
-                        "Provider": "Vodafone Ghana",
-                        "Bundle": "30 Data",
-                        "Validity": "30 Days"
-                    },
-                    "Delivery": "Digital Delivery",
-                    "Package Includes": "1 x Vodafone 30 Data Bundle"
-                },
-                "link": "https://apexmall324.github.io/Apex-DataHub/"
-            },
-            {
-                "id": 304,
-                "name": "Vodafone 5 Data Bundle",
-                "price": "GHS 29.00",
-                "stock": 100,
-                "image": "Data-Bundle/t5.png",
-                "category": "Data Bundles",
-                "description": "Quick access to data with Vodafone 5 Data Bundle. Perfect for light browsing and quick connectivity needs.",
-                "details": [
-                    "Data-Bundle/t5.png"
-                ],
-                "specifications": {
-                    "Type": {
-                        "Provider": "Vodafone Ghana",
-                        "Bundle": "5 Data",
-                        "Validity": "7 Days"
-                    },
-                    "Delivery": "Digital Delivery",
-                    "Package Includes": "1 x Vodafone 5 Data Bundle"
-                },
-                "link": "https://apexmall324.github.io/Apex-DataHub/"
-            }
-        ]
-    },
-    {
-        "pageBackground": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
-        "products": [
-            {
-                "id": 401,
-                "name": "Bulb WiFi Monitoring Camera",
-                "price": "GHS 250.00",
-                "stock": 6,
-                "image": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
-                "video": "Electronics/CCTV/bulb WIFI monitoring camera.mp4",
-                "category": "Electronics",
-                "description": "A smart WiFi monitoring camera disguised as a light bulb. Monitor your home or office remotely with HD quality video. Features night vision, motion detection, and two-way audio communication.",
-                "details": [
-                    "Electronics/CCTV/bulb_wifi_monitoring_camera.avif"
-                ],
-                "specifications": {
-                    "Camera": {
-                        "Resolution": "HD Quality",
-                        "Connectivity": "WiFi",
-                        "Night Vision": "Yes",
-                        "Motion Detection": "Yes",
-                        "Audio": "Two-way Audio"
-                    },
-                    "Design": {
-                        "Form Factor": "Smart Bulb",
-                        "Installation": "Easy Plug & Play"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x WiFi Camera Bulb, 1 x Power Adapter"
-                },
-                "link": "https://apexkxuvz-qef6.mydukeshop.com"
-            }
-        ]
-    },
-    {
-        "pageBackground": "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
-        "products": [
-            {
-                "id": 402,
-                "name": "10inch BT Rechargeable Mini Keyboard Mouse Combo - 78 Keys",
-                "price": "GHS 130.00",
-                "stock": 8,
-                "image": "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
-                "video": "Electronics/KEYBOARD/10inch BT Rechargeable Mini Keyboard Mouse Combo 78 Keys.mp4",
-                "category": "Electronics",
-                "description": "A compact and portable Bluetooth rechargeable keyboard and mouse combo with 78 keys. Perfect for tablets, smartphones, and laptops. Features comfortable typing and precise mouse control.",
-                "details": [
-                    "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
-                    "Electronics/KEYBOARD/keyboard-mouse4.jpg"
-                ],
-                "specifications": {
-                    "Keyboard": {
-                        "Type": "Bluetooth Rechargeable",
-                        "Keys": "78 Keys",
-                        "Size": "10 inch",
-                        "Battery": "Rechargeable Lithium"
-                    },
-                    "Mouse": {
-                        "Type": "Wireless",
-                        "Connectivity": "Bluetooth"
-                    },
-                    "Compatibility": "iOS, Android, Windows, Mac",
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Keyboard, 1 x Mouse, 1 x USB Cable"
-                },
-                "link": "https://apexkxuvz-qef6.mydukeshop.com"
-            }
-        ]
-    },
-    {
-        "pageBackground": "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
-        "products": [
-            {
-                "id": 501,
-                "name": "Silver Crest 5L Rice Cooker",
-                "price": "GHS 450.00",
-                "stock": 4,
-                "image": "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
-                "category": "Home Appliances",
-                "description": "A powerful and efficient 5-liter rice cooker from Silver Crest. Perfect for families and small gatherings. Features automatic cooking, keep warm function, and non-stick inner pot for easy cleaning.",
-                "details": [
-                    "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
-                    "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker1.png",
-                    "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker3.jpg",
-                    "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker4.webp"
-                ],
-                "specifications": {
-                    "Capacity": {
-                        "Volume": "5 Liters",
-                        "Servings": "10-12 people"
-                    },
-                    "Features": {
-                        "Cooking": "Automatic",
-                        "Keep Warm": "Yes",
-                        "Inner Pot": "Non-stick",
-                        "Power": "1000W"
-                    },
-                    "Design": {
-                        "Material": "Stainless Steel Body",
-                        "Color": "Black/Silver"
-                    },
-                    "Delivery": "Local Doorstep Delivery",
-                    "Package Includes": "1 x Rice Cooker, 1 x Measuring Cup, 1 x Serving Spoon"
-                },
-                "link": "https://apexkxuvz-qef6.mydukeshop.com"
-            }
-        ]
-    }
-]
+  {
+    "pageBackground": "bags/Heart Bag/heart-clutch-bag-gold-main.png",
+    "products": [
+      {
+        "id": 201,
+        "name": "Heart Clutch Bag - Gold",
+        "price": 180,
+        "stock": 8,
+        "image": "bags/Heart Bag/heart-clutch-bag-gold-main.png",
+        "category": "Bags & Slippers",
+        "description": "An adorable heart-shaped clutch bag with a luxurious gold finish. Perfect for special occasions and everyday use. Features a elegant design with a secure closure and comfortable carrying.",
+        "details": [
+          "bags/Heart Bag/heart-clutch-bag-gold-main.png",
+          "bags/Heart Bag/heart-clutch-bag-gold.png",
+          "bags/Heart Bag/heart-clutch-bag-gold1.png",
+          "bags/Heart Bag/heart-clutch-bag-gold2.png"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Premium PVC",
+            "Style": "Heart-Shaped, Clutch",
+            "Color": "Gold"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Heart Clutch Bag"
+        },
+        "delivery": "1-2 Days",
+        "link": "https://apexkxuvz-qef6.mydukeshop.com"
+      },
+      {
+        "id": 202,
+        "name": "Heart Clutch Bag - Silver",
+        "price": 180,
+        "stock": 6,
+        "image": "bags/Heart Bag/heart-clutch-bag-silver.png",
+        "category": "Bags & Slippers",
+        "description": "A beautiful heart-shaped clutch bag in elegant silver. Perfect for adding a touch of sophistication to any outfit.",
+        "details": [
+          "bags/Heart Bag/heart-clutch-bag-silver.png",
+          "bags/Heart Bag/heart-clutch-bag-silver1.png",
+          "bags/Heart Bag/heart-clutch-bag-silver2.png"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Premium PVC",
+            "Style": "Heart-Shaped, Clutch",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Heart Clutch Bag"
+        },
+        "delivery": "1-2 Days",
+        "link": "https://apexkxuvz-qef6.mydukeshop.com"
+      }
+    ]
+  },
+  {
+    "pageBackground": "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
+    "products": [
+      {
+        "id": 203,
+        "name": "Mini Glossy Jelly Candy Handbag - Black",
+        "price": 50,
+        "stock": 5,
+        "image": "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
+        "video": "bags/Mini Glossy Jelly Handbag/mini-bag.mp4",
+        "category": "Bags & Slippers",
+        "description": "A cute, compact, and stylish mini handbag featuring a trendy, glossy jelly-like PVC finish. Perfect for carrying essentials like phones and keys. Includes a structured top handle and a detachable golden chain for versatile carrying (shoulder or crossbody).",
+        "details": [
+          "bags/Mini Glossy Jelly Handbag/mini-handbag-black.jpg",
+          "bags/Mini Glossy Jelly Handbag/mini-handbag-black1.jpg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "High-Quality Glossy PVC",
+            "Closure": "Flap with Button Snap",
+            "Straps": "Top Handle, Detachable Golden Chain",
+            "Style": "Structured, Mini, Casual/Fashion"
+          },
+          "Dimensions": {
+            "Color": "Black",
+            "Size (Approx.)": "15 x 12 x 5 cm (W x H x D)",
+            "Weight (Approx.)": "150g"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Handbag, 1 x Chain Strap"
+        }
+      }
+    ]
+  },
+  {
+    "pageBackground": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag.jpg",
+    "products": [
+      {
+        "id": 204,
+        "name": "Mini Square Candy Colored Handbag - Black",
+        "price": 100,
+        "stock": 7,
+        "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-black.jpg",
+        "category": "Bags & Slippers",
+        "description": "A charming mini square handbag in attractive candy colors. Perfect for fashion-forward individuals who love compact, stylish bags with vibrant aesthetics.",
+        "details": [
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-black.jpg",
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag.jpg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Premium PVC",
+            "Style": "Square, Mini, Candy-Colored",
+            "Color": "Black"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Handbag"
+        }
+      },
+      {
+        "id": 205,
+        "name": "Mini Square Candy Colored Handbag - Pink",
+        "price": 100,
+        "stock": 9,
+        "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink.jpg",
+        "category": "Bags & Slippers",
+        "description": "An adorable mini square handbag in a lovely pink color. A perfect accessory for adding a pop of color to your outfit.",
+        "details": [
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink.jpg",
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-pink1.jpg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Premium PVC",
+            "Style": "Square, Mini, Candy-Colored",
+            "Color": "Pink"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Handbag"
+        }
+      },
+      {
+        "id": 206,
+        "name": "Mini Square Candy Colored Handbag - White",
+        "price": 100,
+        "stock": 5,
+        "image": "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white.jpg",
+        "category": "Bags & Slippers",
+        "description": "An elegant mini square handbag in crisp white. A versatile classic that matches any style.",
+        "details": [
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white.jpg",
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white1.jpg",
+          "bags/Mini Square Candy Colored Handbag/mini-square-candy-colored-handbag-white2.jpg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Premium PVC",
+            "Style": "Square, Mini, Candy-Colored",
+            "Color": "White"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Handbag"
+        }
+      }
+    ]
+  },
+  {
+    "pageBackground": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg",
+    "products": [
+      {
+        "id": 207,
+        "name": "Quilted Drawstring Bucket Bag - Blue",
+        "price": 50,
+        "stock": 4,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure. Perfect for casual outings and everyday use. Available in multiple colors.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Blue.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Blue"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 208,
+        "name": "Quilted Drawstring Bucket Bag - Brown",
+        "price": 50,
+        "stock": 3,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Brown.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in rich brown. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Brown.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Brown"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 209,
+        "name": "Quilted Drawstring Bucket Bag - Coffee",
+        "price": 50,
+        "stock": 6,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Coffee.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in warm coffee tone. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Coffee.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Coffee"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 210,
+        "name": "Quilted Drawstring Bucket Bag - Pink",
+        "price": 50,
+        "stock": 5,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Pink.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in soft pink. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Pink.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Pink"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 211,
+        "name": "Quilted Drawstring Bucket Bag - Red",
+        "price": 50,
+        "stock": 4,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Red.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in vibrant red. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Red.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Red"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 212,
+        "name": "Quilted Drawstring Bucket Bag - White",
+        "price": 50,
+        "stock": 7,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-White.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in clean white. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-White.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "White"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      },
+      {
+        "id": 213,
+        "name": "Quilted Drawstring Bucket Bag - Yellow",
+        "price": 50,
+        "stock": 5,
+        "image": "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Yellow.jpeg",
+        "category": "Bags & Slippers",
+        "description": "A stylish quilted bucket bag with a convenient drawstring closure in bright yellow. Perfect for casual outings.",
+        "details": [
+          "bags/Quilted Drawstring Bucket Bag/Quilted-Drawstring-Bucket-Bag-Yellow.jpeg"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Quilted Fabric",
+            "Closure": "Drawstring",
+            "Style": "Bucket Bag",
+            "Color": "Yellow"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Bucket Bag"
+        }
+      }
+    ]
+  },
+  {
+    "pageBackground": "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
+    "products": [
+      {
+        "id": 214,
+        "name": "Rhombus Snakeskin Fashion Bag",
+        "price": 100,
+        "stock": 8,
+        "image": "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
+        "category": "Bags & Slippers",
+        "description": "A stunning fashion bag featuring a trendy rhombus pattern with snakeskin texture. Perfect for making a bold statement with your style. High-quality material ensures durability and elegance.",
+        "details": [
+          "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag.jpg",
+          "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag1.jpg",
+          "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag2.jpg",
+          "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag3.jpg",
+          "bags/Rhombus Snakeskin Bag/Rhombus-Snakeskin-Fashion-bag4.jpg",
+          "bags/Rhombus Snakeskin Bag/rhombus-snakeskin-fashion-bag5.png"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Snakeskin Texture PVC/Synthetic",
+            "Pattern": "Rhombus",
+            "Style": "Fashion Bag",
+            "Closure": "Secure Closure"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Fashion Bag"
+        },
+        "delivery": "2-4 Days",
+        "link": "https://myduke.co/hjrhqtdoujtf6c4iqfu2nibp"
+      }
+    ]
+  },
+  {
+    "pageBackground": "bags/WaistBag/waistbag1.avif",
+    "products": [
+      {
+        "id": 215,
+        "name": "Waist Bag",
+        "price": 130,
+        "stock": 10,
+        "image": "bags/WaistBag/waistbag1.avif",
+        "video": "bags/WaistBag/Waist bag.mp4",
+        "category": "Bags & Slippers",
+        "description": "A practical and stylish waist bag perfect for hands-free carrying. Ideal for travel, outdoor activities, and everyday use. Features a secure fit and convenient compartments.",
+        "details": [
+          "bags/WaistBag/waistbag1.avif",
+          "bags/WaistBag/waistbag2.avif"
+        ],
+        "specifications": {
+          "Design": {
+            "Material": "Durable Fabric",
+            "Style": "Waist Bag, Crossbody",
+            "Closure": "Secure Zip"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Waist Bag"
+        }
+      }
+    ]
+  },
+  {
+    "pageBackground": "Data-Bundle/at30.png",
+    "products": [
+      {
+        "id": 301,
+        "name": "AT 30 Data Bundle",
+        "price": 90,
+        "stock": 50,
+        "image": "Data-Bundle/at30.png",
+        "category": "Data Bundles",
+        "description": "Get instant access to high-speed data with AT 30 Data Bundle. Perfect for browsing, streaming, and staying connected throughout the day.",
+        "details": [
+          "Data-Bundle/at30.png"
+        ],
+        "specifications": {
+          "Type": {
+            "Provider": "AT Mobile",
+            "Bundle": "30 Data",
+            "Validity": "30 Days"
+          },
+          "Delivery": "Digital Delivery",
+          "Package Includes": "1 x AT 30 Data Bundle"
+        },
+        "link": "https://apexmall324.github.io/Apex-DataHub/"
+      },
+      {
+        "id": 302,
+        "name": "MTN 30 Data Bundle",
+        "price": 125,
+        "stock": 50,
+        "image": "Data-Bundle/mtn30.png",
+        "category": "Data Bundles",
+        "description": "Get instant access to high-speed data with MTN 30 Data Bundle. Perfect for staying online and enjoying uninterrupted connectivity.",
+        "details": [
+          "Data-Bundle/mtn30.png"
+        ],
+        "specifications": {
+          "Type": {
+            "Provider": "MTN Ghana",
+            "Bundle": "30 Data",
+            "Validity": "30 Days"
+          },
+          "Delivery": "Digital Delivery",
+          "Package Includes": "1 x MTN 30 Data Bundle"
+        },
+        "link": "https://apexmall324.github.io/Apex-DataHub/"
+      },
+      {
+        "id": 303,
+        "name": "Vodafone 30 Data Bundle",
+        "price": 116,
+        "stock": 50,
+        "image": "Data-Bundle/t30.png",
+        "category": "Data Bundles",
+        "description": "Get instant access to high-speed data with Vodafone 30 Data Bundle. Reliable connectivity for all your online needs.",
+        "details": [
+          "Data-Bundle/t30.png"
+        ],
+        "specifications": {
+          "Type": {
+            "Provider": "Vodafone Ghana",
+            "Bundle": "30 Data",
+            "Validity": "30 Days"
+          },
+          "Delivery": "Digital Delivery",
+          "Package Includes": "1 x Vodafone 30 Data Bundle"
+        },
+        "link": "https://apexmall324.github.io/Apex-DataHub/"
+      },
+      {
+        "id": 304,
+        "name": "Vodafone 5 Data Bundle",
+        "price": 25,
+        "stock": 100,
+        "image": "Data-Bundle/t5.png",
+        "category": "Data Bundles",
+        "description": "Quick access to data with Vodafone 5 Data Bundle. Perfect for light browsing and quick connectivity needs.",
+        "details": [
+          "Data-Bundle/t5.png"
+        ],
+        "specifications": {
+          "Type": {
+            "Provider": "Vodafone Ghana",
+            "Bundle": "5 Data",
+            "Validity": "7 Days"
+          },
+          "Delivery": "Digital Delivery",
+          "Package Includes": "1 x Vodafone 5 Data Bundle"
+        },
+        "link": "https://apexmall324.github.io/Apex-DataHub/"
+      }
+    ]
+  },
+  {
+    "pageBackground": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
+    "products": [
+      {
+        "id": 401,
+        "name": "Bulb WiFi Monitoring Camera",
+        "price": 250,
+        "stock": 6,
+        "image": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
+        "video": "Electronics/CCTV/bulb WIFI monitoring camera.mp4",
+        "category": "Electronics",
+        "description": "A smart WiFi monitoring camera disguised as a light bulb. Monitor your home or office remotely with HD quality video. Features night vision, motion detection, and two-way audio communication.",
+        "details": [
+          "Electronics/CCTV/bulb_wifi_monitoring_camera.avif"
+        ],
+        "specifications": {
+          "Camera": {
+            "Resolution": "HD Quality",
+            "Connectivity": "WiFi",
+            "Night Vision": "Yes",
+            "Motion Detection": "Yes",
+            "Audio": "Two-way Audio"
+          },
+          "Design": {
+            "Form Factor": "Smart Bulb",
+            "Installation": "Easy Plug & Play"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x WiFi Camera Bulb, 1 x Power Adapter"
+        },
+        "link": "https://apexkxuvz-qef6.mydukeshop.com"
+      }
+    ]
+  },
+  {
+    "pageBackground": "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
+    "products": [
+      {
+        "id": 402,
+        "name": "10inch BT Rechargeable Mini Keyboard Mouse Combo - 78 Keys",
+        "price": 130,
+        "stock": 8,
+        "image": "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
+        "video": "Electronics/KEYBOARD/10inch BT Rechargeable Mini Keyboard Mouse Combo 78 Keys.mp4",
+        "category": "Electronics",
+        "description": "A compact and portable Bluetooth rechargeable keyboard and mouse combo with 78 keys. Perfect for tablets, smartphones, and laptops. Features comfortable typing and precise mouse control.",
+        "details": [
+          "Electronics/KEYBOARD/apexmall-wireless-keyboard-mouse-set-white-main.jpg",
+          "Electronics/KEYBOARD/keyboard-mouse4.jpg"
+        ],
+        "specifications": {
+          "Keyboard": {
+            "Type": "Bluetooth Rechargeable",
+            "Keys": "78 Keys",
+            "Size": "10 inch",
+            "Battery": "Rechargeable Lithium"
+          },
+          "Mouse": {
+            "Type": "Wireless",
+            "Connectivity": "Bluetooth"
+          },
+          "Compatibility": "iOS, Android, Windows, Mac",
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Keyboard, 1 x Mouse, 1 x USB Cable"
+        },
+        "link": "https://apexkxuvz-qef6.mydukeshop.com"
+      }
+    ]
+  },
+  {
+    "pageBackground": "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
+    "products": [
+      {
+        "id": 501,
+        "name": "Silver Crest 5L Rice Cooker",
+        "price": 450,
+        "stock": 4,
+        "image": "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
+        "category": "Home Appliances",
+        "description": "A powerful and efficient 5-liter rice cooker from Silver Crest. Perfect for families and small gatherings. Features automatic cooking, keep warm function, and non-stick inner pot for easy cleaning.",
+        "details": [
+          "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker.png",
+          "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker1.png",
+          "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker3.jpg",
+          "Home-Appliances/RICE-COOKER/silver-crest-5L-rice-cooker4.webp"
+        ],
+        "specifications": {
+          "Capacity": {
+            "Volume": "5 Liters",
+            "Servings": "10-12 people"
+          },
+          "Features": {
+            "Cooking": "Automatic",
+            "Keep Warm": "Yes",
+            "Inner Pot": "Non-stick",
+            "Power": "1000W"
+          },
+          "Design": {
+            "Material": "Stainless Steel Body",
+            "Color": "Black/Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Rice Cooker, 1 x Measuring Cup, 1 x Serving Spoon"
+        },
+        "link": "https://apexkxuvz-qef6.mydukeshop.com"
+      }
+    ]
+  },
+  {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/Apor-Pen1.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+    
+  },
+  {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/Apor-Pen.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+    
+  },
+  {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/apor-pen2.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+    
+  },
+   {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/apor-pen3.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+},
+ {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/apor-pen4.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+},
+ {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/apor-pen5.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+},
+ {
+    "pageBackground": "Others/APOR PEN/Apor-Pen1.jpeg",
+    "products": [
+      {
+        "id": 601,
+        "name": "Apor Pen - Magic Pen",
+        "price": 50,
+        "stock": 100,
+        "image": "Others/APOR PEN/Apor-Pen1.jpeg",
+        "video": "Others/APOR PEN/apor-pen6.mp4",
+        "category": "Others",
+        "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
+        "details": [
+          "Others/APOR PEN/Apor-Pen1.jpeg",
+          "Others/APOR PEN/Apor-Pen7.avif",
+          "Others/APOR PEN/Apor-Pen8.avif",
+          "Others/APOR PEN/Apor-Pen9.avif",
+          "Others/APOR PEN/Apor-Pen10.avif"
+
+        ],
+        "specifications": {
+          "Type": {
+            "Ink Type": "Invisible Ink",
+            "Color": "Silver"
+          },
+          "Delivery": "Local Doorstep Delivery",
+          "Package Includes": "1 x Apor Pen"
+        }
+      }
+    ]
+}
+]  
