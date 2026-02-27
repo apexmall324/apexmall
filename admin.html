@@ -14,11 +14,11 @@
     <p class="muted">This is a lightweight client-side admin tool. Changes are stored in your browser's localStorage and can be exported as a JSON file for manual commit to your GitHub repo.</p>
 
     <div class="admin-controls">
-      <input id="adminSearch" placeholder="Search by name or id" />
+      <input id="adminSearch" placeholder="Search by product name or ID" />
       <div class="admin-actions">
-        <button id="saveEdits" class="nav-btn">Save edits (local)</button>
-        <button id="downloadJson" class="nav-btn">Download updated JSON</button>
-        <button id="clearEdits" class="nav-btn nav-desktop">Clear local edits</button>
+        <button id="saveEdits" class="nav-btn">Save edits</button>
+        <button id="downloadJson" class="nav-btn">Download JSON</button>
+        <button id="clearEdits" class="nav-btn">Clear edits</button>
       </div>
     </div>
 
@@ -77,7 +77,7 @@
     const table = document.createElement('table');
     table.className = 'admin-table';
     const thead = document.createElement('thead');
-    thead.innerHTML = '<tr><th>ID</th><th>Image</th><th>Product</th><th>Category</th><th>Price</th><th>Stock</th></tr>';
+    thead.innerHTML = '<tr><th>ID</th><th>Image</th><th>Product</th><th>Category</th><th>Price (GHS)</th><th>Stock</th><th>Link</th></tr>';
     table.appendChild(thead);
 
     const tbody = document.createElement('tbody');
@@ -87,14 +87,17 @@
 
       const img = p.image ? `<img src="${p.image}" alt="${p.name}" width="60" height="60">` : '';
       const stockVal = (typeof p.stock === 'number') ? p.stock : '';
+      const priceVal = (typeof p.price === 'number') ? p.price : '';
+      const linkVal = p.link || '';
 
       tr.innerHTML = `
         <td class="mono">${p.id}</td>
         <td>${img}</td>
         <td class="prod-name">${escapeHtml(p.name)}</td>
         <td>${escapeHtml(String(p.category || ''))}</td>
-        <td class="mono">${escapeHtml(String(p.price || ''))}</td>
-        <td><input class="stock-input" data-id="${p.id}" type="number" min="0" value="${stockVal}" placeholder="empty" /></td>
+        <td><input class="price-input" data-id="${p.id}" type="number" min="0" step="0.01" value="${priceVal}" placeholder="N/A" /></td>
+        <td><input class="stock-input" data-id="${p.id}" type="number" min="0" value="${stockVal}" placeholder="N/A" /></td>
+        <td><input class="link-input" data-id="${p.id}" type="text" value="${escapeHtml(linkVal)}" placeholder="URL" /></td>
       `;
 
       tbody.appendChild(tr);
@@ -117,24 +120,57 @@
     const edits = loadSavedEdits();
     document.querySelectorAll('.stock-input').forEach(inp => {
       const id = String(inp.dataset.id);
-      if (edits[id] !== undefined) inp.value = edits[id];
+      if (edits[id] && edits[id].stock !== undefined) inp.value = edits[id].stock;
+    });
+    document.querySelectorAll('.price-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      if (edits[id] && edits[id].price !== undefined) inp.value = edits[id].price;
+    });
+    document.querySelectorAll('.link-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      if (edits[id] && edits[id].link !== undefined) inp.value = edits[id].link;
     });
   }
 
   // Save current table inputs to localStorage
   saveBtn.addEventListener('click', () => {
     const edits = {};
+    
+    // Collect stock edits
     document.querySelectorAll('.stock-input').forEach(inp => {
       const id = String(inp.dataset.id);
       const v = inp.value;
-      if (v === '' || v === null) return; // skip
+      if (v === '' || v === null) return;
       const n = Number(v);
-      if (!Number.isNaN(n)) edits[id] = n;
+      if (!Number.isNaN(n)) {
+        if (!edits[id]) edits[id] = {};
+        edits[id].stock = n;
+      }
+    });
+
+    // Collect price edits
+    document.querySelectorAll('.price-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      const v = inp.value;
+      if (v === '' || v === null) return;
+      const n = Number(v);
+      if (!Number.isNaN(n)) {
+        if (!edits[id]) edits[id] = {};
+        edits[id].price = n;
+      }
+    });
+
+    // Collect link edits
+    document.querySelectorAll('.link-input').forEach(inp => {
+      const id = String(inp.dataset.id);
+      const v = inp.value.trim();
+      if (v === '') return;
+      if (!edits[id]) edits[id] = {};
+      edits[id].link = v;
     });
 
     localStorage.setItem('apexInventoryEdits', JSON.stringify(edits));
-    setStatus('Saved edits to localStorage. Use Download to export or open the main site to see changes in this browser.');
-    // notify other tabs
+    setStatus(`✓ Saved ${Object.keys(edits).length} product edits to browser storage. Download to export as JSON file.`);
     window.dispatchEvent(new Event('storage'));
   });
 
@@ -145,7 +181,12 @@
     function applyTo(obj){
       if (Array.isArray(obj)) obj.forEach(applyTo);
       else if (obj && typeof obj === 'object'){
-        if (obj.id && edits[String(obj.id)] !== undefined) obj.stock = edits[String(obj.id)];
+        if (obj.id && edits[String(obj.id)]) {
+          const edit = edits[String(obj.id)];
+          if (edit.stock !== undefined) obj.stock = edit.stock;
+          if (edit.price !== undefined) obj.price = edit.price;
+          if (edit.link !== undefined) obj.link = edit.link;
+        }
         Object.values(obj).forEach(applyTo);
       }
     }
@@ -157,12 +198,13 @@
     a.href = url; a.download = 'products-updated.json';
     a.click();
     URL.revokeObjectURL(url);
-    setStatus('Downloaded products-updated.json. Commit it to your repo to persist changes globally.');
+    setStatus(`✓ Downloaded products-updated.json with ${Object.keys(edits).length} changes. Commit to GitHub to persist globally.`);
   });
 
   clearBtn.addEventListener('click', () => {
+    if (!confirm('Clear all local edits? This cannot be undone.')) return;
     localStorage.removeItem('apexInventoryEdits');
-    setStatus('Cleared saved edits.');
+    setStatus('✓ Cleared all saved edits from browser.');
     applySavedToUI();
     window.dispatchEvent(new Event('storage'));
   });
@@ -177,7 +219,7 @@
   // Initial render
   render(flatProducts);
   applySavedToUI();
-  setStatus('Products loaded. You can edit quantities and Save or Download.');
+  setStatus(`✓ Loaded ${flatProducts.length} products. Edit prices, stock, and links below.`);
 })();
   </script>
 </body>
