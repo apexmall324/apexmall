@@ -279,7 +279,7 @@ function renderProducts(products) {
       <div class="price"></div>
 
       ${product.available ? `
-        <a href="${orderLink}" target="_blank" class="buy-btn">Order Now</a>
+        <a href="${orderLink}" target="_blank" rel="noopener noreferrer" class="buy-btn">Order Now</a>
       ` : `
         <div class="out-stock-actions">
           <button class="buy-btn disabled" aria-disabled="true">Out of stock</button>
@@ -770,10 +770,93 @@ function debounce(func, delay = 300) {
 }
 
 /* ===============================
-   SEARCH
+   SEARCH WITH SUGGESTIONS
    =============================== */
+const searchSuggestions = document.getElementById("searchSuggestions");
+
+function updateSearchSuggestions() {
+  const query = (searchInput && searchInput.value || '').trim().toLowerCase();
+
+  if (!query || query.length < 1) {
+    searchSuggestions.innerHTML = '';
+    searchSuggestions.style.display = 'none';
+    return;
+  }
+
+  // Find matching products (limit to 6 suggestions)
+  const matches = ALL_PRODUCTS.filter(p => 
+    p.name.toLowerCase().includes(query) || 
+    p.description.toLowerCase().includes(query) ||
+    p.category.toLowerCase().includes(query)
+  ).slice(0, 6);
+  console.debug('[searchSuggestions] query=', query, 'matches=', matches.length);
+
+  if (matches.length === 0) {
+    searchSuggestions.innerHTML = '<div class="search-suggestion-none">No results found</div>';
+    searchSuggestions.style.display = 'block';
+    return;
+  }
+
+  searchSuggestions.innerHTML = matches.map((p, idx) => `
+    <div class="search-suggestion" data-id="${p.id}" data-name="${p.name}" role="option" tabindex="0">
+      <div class="suggestion-img">
+        ${p.image ? `<img src="${p.image}" alt="${p.name}" width="40" height="40" style="object-fit: cover; border-radius: 4px;">` : '📦'}
+      </div>
+      <div class="suggestion-info">
+        <div class="suggestion-name">${p.name}</div>
+        <div class="suggestion-cat">${p.category}</div>
+      </div>
+      <div class="suggestion-price">GHS ${p.price}</div>
+    </div>
+  `).join('');
+
+  searchSuggestions.style.display = 'block';
+
+  // Add click handlers to suggestions
+  document.querySelectorAll('.search-suggestion').forEach(el => {
+    const handleSelect = () => {
+      const productName = el.dataset.name;
+      if (productName) {
+        searchInput.value = productName;
+        // Close suggestions immediately
+        searchSuggestions.innerHTML = '';
+        searchSuggestions.style.display = 'none';
+        // Filter with the new search value
+        filterProducts();
+        searchInput.focus();
+      }
+    };
+
+    el.addEventListener('click', handleSelect);
+    el.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        handleSelect();
+      }
+    });
+  });
+}
+
 if (searchInput) {
-  searchInput.addEventListener("input", debounce(filterProducts, 300));
+  searchInput.addEventListener("input", debounce(() => {
+    updateSearchSuggestions();
+    filterProducts();
+  }, 300));
+
+  // Close suggestions when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-bar') && !e.target.closest('.search-suggestions')) {
+      searchSuggestions.innerHTML = '';
+      searchSuggestions.style.display = 'none';
+    }
+  });
+
+  // Close suggestions on Escape
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchSuggestions.innerHTML = '';
+      searchSuggestions.style.display = 'none';
+    }
+  });
 } else {
   console.warn('Search input `#searchInput` not found.');
 }
@@ -795,18 +878,24 @@ categoryButtons.forEach(btn => {
    FILTER LOGIC
    =============================== */
 function filterProducts() {
-  const query = (searchInput && searchInput.value || '').toLowerCase();
+  const query = (searchInput && searchInput.value || '').toLowerCase().trim();
 
   const min = priceMinInput && priceMinInput.value !== '' ? Number(priceMinInput.value) : null;
   const max = priceMaxInput && priceMaxInput.value !== '' ? Number(priceMaxInput.value) : null;
   const inStockOnly = inStockOnlyCheckbox && inStockOnlyCheckbox.checked;
 
-  let filtered = ALL_PRODUCTS.filter(p => {
-    const matchesSearch =
-      p.name.toLowerCase().includes(query) ||
-      p.description.toLowerCase().includes(query);
+  console.debug('[filterProducts] query=', query, 'ALL_PRODUCTS_count=', Array.isArray(ALL_PRODUCTS)?ALL_PRODUCTS.length:0);
 
-    const matchesCategory =
+  let filtered = ALL_PRODUCTS.filter(p => {
+    // Search matches name, description, or category
+    const matchesSearch = !query ||
+      p.name.toLowerCase().includes(query) ||
+      p.description.toLowerCase().includes(query) ||
+      p.category.toLowerCase().includes(query);
+
+    // When user is searching (query present), bypass active category filter
+    // When not searching, apply the active category filter
+    const matchesCategory = query ||
       ACTIVE_CATEGORY === "all" ||
       p.category.toLowerCase().includes(ACTIVE_CATEGORY);
 
@@ -833,6 +922,13 @@ function filterProducts() {
   }
 
   renderProducts(filtered);
+
+  // Debug: if no results, log a small sample to help diagnose
+  if (!filtered || filtered.length === 0) {
+    console.debug('[filterProducts] No matches. Sample products (first 8):', ALL_PRODUCTS.slice(0,8).map(p => ({id:p.id, name:p.name, category:p.category, priceNumber:p.priceNumber, available:p.available})));
+  } else {
+    console.debug('[filterProducts] matched_count=', filtered.length, 'sample_names=', filtered.slice(0,8).map(p=>p.name));
+  }
 }
 
 /* ===============================
@@ -851,11 +947,31 @@ function applyLocalInventoryEdits() {
     ALL_PRODUCTS.forEach(p => {
       const key = String(p.id);
       if (Object.prototype.hasOwnProperty.call(edits, key)) {
-        const newStock = edits[key];
-        const n = Number(newStock);
-        if (!Number.isNaN(n)) {
-          p.stock = n;
-          p.available = (p.stock != null) ? (p.stock > 0) : p.available;
+        const edit = edits[key];
+        
+        // Apply stock edit
+        if (edit.stock !== undefined) {
+          const n = Number(edit.stock);
+          if (!Number.isNaN(n)) {
+            p.stock = n;
+            p.available = (p.stock != null) ? (p.stock > 0) : p.available;
+            mutated = true;
+          }
+        }
+
+        // Apply price edit
+        if (edit.price !== undefined) {
+          const n = Number(edit.price);
+          if (!Number.isNaN(n)) {
+            p.price = n;
+            p.priceNumber = n;
+            mutated = true;
+          }
+        }
+
+        // Apply link edit
+        if (edit.link !== undefined && edit.link.trim() !== '') {
+          p.link = edit.link.trim();
           mutated = true;
         }
       }
