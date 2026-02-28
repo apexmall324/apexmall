@@ -355,20 +355,20 @@
     ]
   },
   {
-    "pageBackground": "bags/WaistBag/waistbag1.avif",
+    "pageBackground": "bags/WaistBag/waistbag1.jpg",
     "products": [
       {
         "id": 215,
         "name": "Waist Bag",
         "price": 130,
         "stock": 10,
-        "image": "bags/WaistBag/waistbag1.avif",
+        "image": "bags/WaistBag/waistbag1.jpg",
         "video": "bags/WaistBag/Waist bag.mp4",
         "category": "Bags & Slippers",
         "description": "A practical and stylish waist bag perfect for hands-free carrying. Ideal for travel, outdoor activities, and everyday use. Features a secure fit and convenient compartments.",
         "details": [
-          "bags/WaistBag/waistbag1.avif",
-          "bags/WaistBag/waistbag2.avif"
+          "bags/WaistBag/waistbag1.jpg",
+          "bags/WaistBag/waistbag2.jpg"
         ],
         "specifications": {
           "Design": {
@@ -476,19 +476,19 @@
     ]
   },
   {
-    "pageBackground": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
+    "pageBackground": "Electronics/CCTV/bulb_wifi_monitoring_camera.jpeg",
     "products": [
       {
         "id": 401,
         "name": "Bulb WiFi Monitoring Camera",
         "price": 250,
         "stock": 6,
-        "image": "Electronics/CCTV/bulb_wifi_monitoring_camera.avif",
+        "image": "Electronics/CCTV/bulb_wifi_monitoring_camera.jpeg",
         "video": "Electronics/CCTV/bulb WIFI monitoring camera.mp4",
         "category": "Electronics",
         "description": "A smart WiFi monitoring camera disguised as a light bulb. Monitor your home or office remotely with HD quality video. Features night vision, motion detection, and two-way audio communication.",
         "details": [
-          "Electronics/CCTV/bulb_wifi_monitoring_camera.avif"
+          "Electronics/CCTV/bulb_wifi_monitoring_camera.jpeg"
         ],
         "specifications": {
           "Camera": {
@@ -597,10 +597,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -629,10 +629,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -661,10 +661,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -693,10 +693,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -724,10 +724,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -755,10 +755,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -786,10 +786,10 @@
         "description": "🎓📚 Prepare for BECE or WASSCE 2026 with the Apor Pen invisible ink pen. Write discreetly and stay ahead without smudging or dulling — perfect for smart students. Call/WhatsApp 0597323795; video call available to view the product before payment. Pickup and nationwide delivery across Ghana 🇬🇭.",
         "details": [
           "Others/APOR PEN/Apor-Pen1.jpeg",
-          "Others/APOR PEN/Apor-Pen7.avif",
-          "Others/APOR PEN/Apor-Pen8.avif",
-          "Others/APOR PEN/Apor-Pen9.avif",
-          "Others/APOR PEN/Apor-Pen10.avif"
+          "Others/APOR PEN/Apor-Pen7.jpg",
+          "Others/APOR PEN/Apor-Pen8.jpg",
+          "Others/APOR PEN/Apor-Pen9.jpg",
+          "Others/APOR PEN/Apor-Pen10.jpg"
 
         ],
         "specifications": {
@@ -804,3 +804,4 @@
     ]
 }
 ]  
+
